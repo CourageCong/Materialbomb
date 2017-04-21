@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_lock_idle_charging"
+          android:title="相册"
+          android:id="@+id/photo"/>
+    <item android:icon="@android:drawable/arrow_down_float"
+    android:title="我的"
+    android:id="@+id/about_me"/>
+    <item android:icon="@android:drawable/ic_menu_crop"
+          android:title="余额"
+    android:id="@+id/rest_money"/>
+    <item  android:title="其他"
+           android:id="@+id/some_else"
+    android:icon="@android:drawable/ic_dialog_info">
+        <menu>
+            <item android:icon="@android:drawable/ic_lock_idle_charging"
+                  android:title="相册"
+                  android:id="@+id/photo1"/>
+            <item android:icon="@android:drawable/arrow_down_float"
+                  android:title="我的"
+                  android:id="@+id/about_me1"/>
+            <item android:icon="@android:drawable/ic_menu_crop"
+                  android:title="余额"
+                  android:id="@+id/rest_money1"/>
+
+        </menu>
+    </item>
+</menu>
