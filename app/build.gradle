@@ -39,4 +39,6 @@ dependencies {
     //glide
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'com.android.support:support-v4:25.1.1'
+    //百分比布局
+    compile 'com.zhy:percent-support-extends:1.1.1'
 }

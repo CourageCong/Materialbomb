@@ -13,7 +13,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -27,13 +26,10 @@ import com.bumptech.glide.Glide;
 import com.fc.materialbomb.listener.TranslucentListener;
 import com.fc.materialbomb.util.FastBlurUtil;
 import com.fc.materialbomb.util.ImageUtil;
-import com.xiaomi.music.materialbomb.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import de.hdodenhof.circleimageview.CircleImageView;
-
-import static android.graphics.Color.argb;
 
 public class MainActivity extends BaseActivity implements TranslucentListener {
 

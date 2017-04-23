@@ -35,7 +35,7 @@ import android.view.View;
 import android.view.View.MeasureSpec;
 
 import com.fc.materialbomb.FCApplication;
-import com.xiaomi.music.materialbomb.R;
+import com.fc.materialbomb.R;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
